@@ -9,6 +9,7 @@ function removeSpaces(inputStr) {
 function removeSpaces1(str) {
 	let noSpaceStr = "";
 	const words = str.split(" ");
+	console.log(words)
 	for (let i = 0; i < words.length; i++) {
 		let word = words[i];
 		noSpaceStr += word;
